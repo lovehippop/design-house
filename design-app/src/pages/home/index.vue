@@ -1,6 +1,6 @@
 <template>
     <div class="page" id="home">
-        <h1>首页</h1>
+        <h1>我的首页</h1>
     </div>
 </template>
 
