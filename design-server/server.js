@@ -21,6 +21,21 @@ const app =express();
  */
 
 
+ app.get('/api/home/catelist',(req,res)=>{
+     let result=mock({
+         status:0,
+         message:'ok',
+         data:{
+                'c|4':[{
+                    'num|+1':10
+                }]
+
+            
+         }
+     });
+     res.json(result)
+ })
+
 
 
 
