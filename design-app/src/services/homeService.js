@@ -11,3 +11,14 @@ export function getHomeCateList(){
         })
     })
 }
+
+//话题、视频
+
+export function  getHomeTopicList() {
+    return new Promise((resolve,reject)=>{
+        FetchGet(API.HOME_TOP_LIST_URL)
+        .then(data=>{
+            resolve(data);
+        })
+    })
+}
